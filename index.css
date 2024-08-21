@@ -1,0 +1,127 @@
+*{
+    font-family: "Work Sans", sans-serif;
+}
+
+
+
+.aaa{
+    font-size: 55px;
+    font-weight: 400;
+  
+}
+
+.bbb{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+
+.h-right{
+    width: 100%;
+    
+}
+
+.h-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: max-content;
+    padding: 60px 0;
+}
+
+.s-left{
+    width: 100%;
+}
+
+.s-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: max-content;
+    padding: 60px 0;
+}
+
+@media (max-width: 1045px) {
+    .h-main{
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+}
+
+
+
+@media (max-width: 1045px) {
+    .s-main{
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+}
+
+.ccc{
+    width: 53px;
+    margin-left: 70px;
+}
+
+
+.mmm{
+    text-align: center;
+}
+
+.card{
+   
+    text-align: center;
+   
+  
+}
+
+.cccc{
+    width: 72px;
+}
+
+.ggg{
+    text-align: center;
+}
+
+
+.g-right{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+aside{
+    background-color: #31C5A1;
+    padding: 100px 0 ;
+}
+
+
+.k-main {
+    height: max-content;
+    padding: 60px 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+@media (max-width: 1206px) {
+    .k-main{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media (max-width: 1027px) {
+    .k-main{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+
+@media (max-width: 830px) {
+    .k-main{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
